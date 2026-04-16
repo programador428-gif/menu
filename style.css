@@ -1,0 +1,38 @@
+.author-card {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.author-info {
+  background: white;
+  border: 1px solid #e2e8f0;
+  padding: 10px 25px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #2563eb;
+}
+
+.author-name {
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+.author-nickname {
+  font-size: 0.8rem !important;
+  color: #64748b;
+  margin: 0 !important;
+  border: none !important;
+}
