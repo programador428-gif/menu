@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu</title>
+    <title>Menu de Proyectos</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h1>Mis proyectos de programación</h1>
+
       <section class="card">
         <p class="curso-titulo">Curso: Programando con Javascript</p>
         <p class="descripcion">
@@ -16,22 +17,40 @@
           este curso, mis proyectos son los siguientes:
         </p>
       </section>
-      <section class="card">
-        <a href="https://juego-limones-eosin.vercel.app/"> Juego de limones </a>
-        <p>
-          Este proyecto es un juego sobre atrapar limones que caen desde arriba
-          y el jugador tiene que atraparlos usando unos botones que dan la
-          direccion. No dejes que se te acabe la vida!
-        </p>
-        <a href="https://vercel.com/programador428-gifs-projects/juego-cazando"
-          >Juego Cazando</a
+
+      <section class="proyectos-lista">
+        <a href="https://juego-limones-eosin.vercel.app/" class="project-card">
+          <img
+            src="img/limones.png"
+            alt="Juego de limones"
+            class="project-img"
+          />
+          <div class="project-info">
+            <strong>Juego de limones</strong>
+            <p>
+              Este proyecto es un juego sobre atrapar limones que caen desde
+              arriba y el jugador tiene que atraparlos usando unos botones que
+              dan la dirección. ¡No dejes que se te acabe la vida!
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="https://vercel.com/programador428-gifs-projects/juego-cazando"
+          class="project-card"
         >
-        <p>
-          Este juego se trata de atrapar a la comida que aparece en pantalla
-          usando unos botones que te dan direccion. Atrapalo antes que se agote
-          el tiempo!
-        </p>
+          <img src="img/canzando.png" alt="Juego Cazando" class="project-img" />
+          <div class="project-info">
+            <strong>Juego Cazando</strong>
+            <p>
+              Este juego se trata de atrapar a la comida que aparece en pantalla
+              usando unos botones que te dan dirección. ¡Atrápalo antes que se
+              agote el tiempo!
+            </p>
+          </div>
+        </a>
       </section>
+
       <footer class="author-card">
         <div class="author-info">
           <img

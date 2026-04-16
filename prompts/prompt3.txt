@@ -1,0 +1,1 @@
+Modifica el CSS para que los links sean tarjetas con una imagen superior que use object-fit: cover y bordes de 4px. Asegura que la tarjeta ocupe el 90% en móvil y tenga un efecto hover que la agrande y le dé brillo neón
